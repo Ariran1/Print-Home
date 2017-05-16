@@ -225,11 +225,11 @@ main {
   letter-spacing: .02em;
 }
 .titleBlock__containerForActions {
-  background: #000000 url(../images/banner.png) no-repeat center center;
   display: flex;
   max-height: 266px;
   background-size: cover;
-  margin: 0 10px 10px;
+  padding: 0 10px;
+  box-sizing: border-box;
   width: 100%;
 }
 .titleBlock__containerForActions-block {
@@ -1704,6 +1704,7 @@ main {
   font-weight: 700;
   font-size: 1.6em;
   padding: 3px 0;
+  text-shadow: 0 0 5px rgb(255,255,255);
 }
 .productsPreview__item-category {
   font-size: 1.3em;
