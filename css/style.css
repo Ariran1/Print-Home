@@ -319,6 +319,13 @@ body {
   padding: 7px 8px;
   margin-left: 25px;
   display: inline-block;
+  -webkit-transition: left .2s ease;
+  transition: left .2s ease;
+}
+.titleBlock__mans a:after:hover,
+.titleBlock__womans a:after:hover {
+  position: relative;
+  left:20px;
 }
 .titleBlock__mans a,
 .titleBlock__womans a {
@@ -1269,6 +1276,9 @@ body {
   display: none;
   visibility: hidden;
   opacity: 0;
+}
+.topSales__categories-itemSexSelect:hover {
+  border-bottom: 1px solid #4f4f4f;
 }
 .topSales__categories-item:hover .topSales__categories-itemSexSelect {
   display: block;
