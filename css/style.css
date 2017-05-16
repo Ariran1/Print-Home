@@ -2593,85 +2593,85 @@ main {
     height: 140px;
   }
 }
-.container__collections {
+.container__collectionsDdafkgt4R {
   background: #eee;
   font-family: "Roboto";
   font-weight: 400;
   font-size: 10px !important;
 }
-.collections {
+.collectionsDdafkgt4R {
   color: black;
   padding: 20px 10px;
   border-radius: 3px;
   -weblit-border-box: box-sizing;
   box-sizing: border-box;
 }
-.collections__sectionName {
+.collectionsDdafkgt4R__sectionName {
   font-weight: 500;
   font-size: 2em;
   margin: 12px 0 7px;
   border-top: 1px solid #c8c8c8;
 }
-.collections__sectionName > span {
+.collectionsDdafkgt4R__sectionName > span {
   display: inline-block;
   padding: 5px 20px 5px 0;
   background: #eee;
   position: relative;
   top: -0.9em;
 }
-.collections__columns {
+.collectionsDdafkgt4R__columns {
   float: left;
   width: 16.666%;
   padding: 0 4px;
   -weblit-border-box: box-sizing;
   box-sizing: border-box;
 }
-.collections__columns-item {
+.collectionsDdafkgt4R__columns-item {
   font-size: 1.2em;
   margin: 7px 0;
   line-height: 1.5;
 }
-.collections__columns-name {
+.collectionsDdafkgt4R__columns-name {
   font-size: 1.6em;
   font-weight: 400;
   margin: 0px 0 8px;
 }
-.collections *:first-letter {
+.collectionsDdafkgt4R *:first-letter {
   text-transform: uppercase;
 }
 /* Первые буквы строк везде в коллекциях большие*/
 @media screen and (max-width: 1280px) {
-  .collections {
+  .collectionsDdafkgt4R {
     border-radius: 0px;
     width: auto !important;
   }
 }
 @media screen and (max-width: 1100px) {
-  .collections__columns:nth-of-type(n + 6) {
+  .collectionsDdafkgt4R__columns:nth-of-type(n + 6) {
     display: none;
   }
-  .collections__columns {
+  .collectionsDdafkgt4R__columns {
     width: 20%;
   }
 }
 @media screen and (max-width: 900px) {
-  .collections__columns:nth-of-type(n + 5) {
+  .collectionsDdafkgt4R__columns:nth-of-type(n + 5) {
     display: none;
   }
-  .collections__columns {
+  .collectionsDdafkgt4R__columns {
     width: 25%;
   }
 }
 @media screen and (max-width: 800px) {
-  .collections__columns:nth-of-type(n + 4) {
+  .collectionsDdafkgt4R__columns:nth-of-type(n + 4) {
     display: none;
   }
-  .collections__columns {
+  .collectionsDdafkgt4R__columns {
     width: 33.333%;
   }
 }
 @media screen and (max-width: 700px) {
-  .collections {
+  .collectionsDdafkgt4R {
     display: none;
   }
 }
