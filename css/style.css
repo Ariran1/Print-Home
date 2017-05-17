@@ -733,11 +733,13 @@ main {
   width: 48.333%;
   background: url(../images/russia.png) no-repeat center center;
   background-size: cover;
+  border-radius: 3px;
 }
 .yourDesign {
   margin: 12px 10px;
   line-height: 1.1;
   width: 48.333%;
+  border-radius: 3px;
 }
 .shippingInfo__container {
   padding: 34px 41px;
@@ -951,6 +953,7 @@ main {
   margin: .83333%;
   float: left;
   position: relative;
+  border-radius: 3px;
 }
 .topSales__categories-item:before {
   position: absolute;
@@ -1061,6 +1064,7 @@ main {
   -o-transition: all 0.3s;
   transition: all 0.3s;
   background-size: cover;
+  border-radius: 3px 3px 4px 4px;
 }
 .topSales__categories-itemContent {
   position: absolute;
@@ -1080,6 +1084,8 @@ main {
   -o-transition: all 0.3s;
   transition: all 0.3s;
   height: 6em;
+  border-radius: 0 0 3px 3px;
+  overflow: hidden;
 }
 .topSales__categories-item:hover .topSales__categories-itemContent {
   height: 100%;
@@ -1308,6 +1314,7 @@ main {
   background-image: url(../images/hotSales__BG.png);
   background-position: center center;
   background-size: cover;
+  border-radius: 3px;
 }
 .hotSales__topSection {
   display: -ms-flexbox;
@@ -1640,6 +1647,7 @@ main {
   -weblit-border-box: box-sizing;
   box-sizing: border-box;
   border-radius: 3px;
+  overflow: hidden;
 }
 .productsPreview__item:hover {
   box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.15);
@@ -1704,7 +1712,7 @@ main {
   font-weight: 700;
   font-size: 1.6em;
   padding: 3px 0;
-  text-shadow: 0 0 5px rgb(255,255,255);
+  text-shadow: 0 0 5px white;
 }
 .productsPreview__item-category {
   font-size: 1.3em;

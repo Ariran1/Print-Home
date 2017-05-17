@@ -786,11 +786,13 @@ main {
     width:48.333%;
     background: url(../images/russia.png) no-repeat center center;
     background-size: cover;
+    .border-radius();
 }
 .yourDesign {
     margin:12px 10px;
     line-height:1.1;
     width:48.333%;
+	.border-radius();
 }
 .shippingInfo__container {
     padding: 34px 41px;
@@ -989,6 +991,7 @@ main {
     margin: .83333%;
     float: left;
     position: relative;
+    .border-radius();
 }
 .topSales__categories-item:before {
     position: absolute;
@@ -1104,6 +1107,7 @@ main {
     height: 100%;
     .transition(all .3s);
     background-size: cover;
+    border-radius: 3px 3px 4px 4px;
 }
 .topSales__categories-itemContent {
     position: absolute;
@@ -1119,6 +1123,8 @@ main {
     .border-box();
     .transition(all .3s);
     height: 6em;
+    border-radius: 0 0 3px 3px;
+    overflow: hidden
 }
 .topSales__categories-item:hover .topSales__categories-itemContent {
     height:100%;
@@ -1374,6 +1380,7 @@ main {
     background-image: url(../images/hotSales__BG.png);
     background-position: center center;
     background-size:cover;
+    .border-radius();
 }
 .hotSales__topSection {
     display: -ms-flexbox;
@@ -1729,6 +1736,7 @@ main {
     .transition(all .12s);
     .border-box();
     .border-radius();
+    overflow: hidden;
 }
 .productsPreview__item:hover {
     box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.15);
@@ -1793,6 +1801,7 @@ main {
     font-weight: 700;
     font-size: 1.6em;
     padding: 3px 0;
+    text-shadow: 0 0 5px white;
 }
 .productsPreview__item-category {
     font-size: 1.3em;
@@ -1889,7 +1898,7 @@ main {
     font-size: 1.6em;
     font-weight: 400;
     color: @whiteFont;
-    border-radius: 3px;
+    .border-radius();
     margin-top: 11px;
     width: 100%;
     padding: 10px 34px;
@@ -2214,7 +2223,7 @@ main {
     padding: 12px;
     font-size: 1.2em;
     border: none;
-    border-radius: 3px;
+    .border-radius();
     text-align: center;
     color: black;
     width: 75%;
@@ -2234,7 +2243,7 @@ main {
     border:1px solid @red;
     padding: 14px 45px;
     font-weight: 400;
-    border-radius: 3px;
+    .border-radius();
     margin: 0px 5px 0 15px;
     .transition(all .1s ease);
 }
@@ -2402,7 +2411,7 @@ main {
 
 .feedback__client-photo {
     height: 220px;
-    border-radius: 3px;
+    .border-radius();
     background: url(../images/girl.png) no-repeat center center;
 }
 .feedback__client-content {
@@ -2731,7 +2740,7 @@ main {
 .collectionsDdafkgt4R {
     color: @blackFont;
     padding: 20px 10px;
-    border-radius: 3px;
+    .border-radius();
     .border-box();
 }
 .collectionsDdafkgt4R__sectionName {
