@@ -953,7 +953,6 @@ main {
   margin: .83333%;
   float: left;
   position: relative;
-  border-radius: 3px;
 }
 .topSales__categories-item:before {
   position: absolute;
@@ -1054,6 +1053,7 @@ main {
   overflow: hidden;
   width: 100%;
   height: 100%;
+  border-radius: 3px;
 }
 .topSales__categories-itemBackground {
   background: url(../images/auto.png) no-repeat center center;
@@ -1084,7 +1084,7 @@ main {
   -o-transition: all 0.3s;
   transition: all 0.3s;
   height: 6em;
-  border-radius: 0 0 3px 3px;
+  border-radius: 0 0 2px 2px;
   overflow: hidden;
 }
 .topSales__categories-item:hover .topSales__categories-itemContent {
@@ -1391,6 +1391,7 @@ main {
   float: left;
   z-index: 2;
   font-weight: 400;
+  line-height: 1em;
 }
 .hotSales__products-itemPrice:before {
   content: '';
@@ -1636,6 +1637,7 @@ main {
   height: 250px;
   margin: 10px;
   float: left;
+  display: block;
   position: relative;
   background: #fff;
   padding: 12px;
@@ -1669,7 +1671,6 @@ main {
 .productsPreview__item-imageContainer {
   text-align: center;
   height: 160px;
-  display: block;
 }
 .productsPreview__item-imageContainer--sale {
   text-align: center;
@@ -1712,7 +1713,7 @@ main {
   font-weight: 700;
   font-size: 1.6em;
   padding: 3px 0;
-  text-shadow: 0 0 5px white;
+  text-shadow: 1px 0 5px white, 1px 3px 9px white;
 }
 .productsPreview__item-category {
   font-size: 1.3em;
@@ -2992,7 +2993,7 @@ main {
     content: '';
     padding: 0.3em;
     margin-left: 0.4em;
-    background: url(http://localhost:8080/images/arrow-right.svg) no-repeat center center;
+    background: url(../images/arrow-right.svg) no-repeat center center;
     background-size: contain;
     display: inline-block;
     position: absolute;
